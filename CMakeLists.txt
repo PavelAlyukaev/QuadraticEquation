@@ -14,4 +14,4 @@ add_subdirectory("SolverLib")
 include(CPack)
 
 enable_testing()
-add_test(Test1 ${CMAKE_SOURCE_DIR})
+add_test(TestSolver ${CMAKE_SOURCE_DIR})
